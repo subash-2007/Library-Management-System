@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+.env
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend build outputs
+dist/
+dist-ssr/
+*.local
+
+# SQLite database (can be generated or checked in if desired; usually ignored)
+# backend/library.db
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
